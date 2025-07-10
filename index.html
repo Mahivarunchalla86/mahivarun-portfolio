@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mahivarun Challa - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f4f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0d47a1, #1976d2);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+
+    section {
+      padding: 30px 40px;
+      background-color: white;
+      margin: 15px auto;
+      border-radius: 10px;
+      max-width: 900px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #0d47a1;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #1976d2;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 25px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .button-link {
+      display: inline-block;
+      padding: 8px 15px;
+      margin: 5px 3px;
+      background-color: #1976d2;
+      color: white;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button-link:hover {
+      background-color: #0d47a1;
+    }
+
+    .projects h3, .internships h3 {
+      margin-top: 25px;
+      color: #1565c0;
+    }
+
+    footer {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+    .contact-form button {
+      background-color: #0d47a1;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #1976d2;
+    }
+
+    .social-links {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mahivarun Challa</h1>
+    <p>ECE Graduate | Python Enthusiast | Web Developer</p>
+    <p>Nandyal, AP - 518508 | 📞 +91-8639571620 | 📧 
+      <a class="button-link" href="mailto:mahivarunchalla99@gmail.com">Email Me</a>
+    </p>
+    <div class="social-links">
+      <a class="button-link" href="https://www.linkedin.com/in/challamahivarunreddy" target="_blank">LinkedIn</a>
+      <a class="button-link" href="https://github.com/Mahivarunchalla86" target="_blank">GitHub</a>
+      <a class="button-link" href="https://www.hackerrank.com/profile/mahivarunchalla1" target="_blank">HackerRank</a>
+      <a class="button-link" href="Mahivarun_Resume.pdf" download target="_blank">📄 Download Resume</a>
+    </div>
+  </header>
+
+  <!-- [Sections: About, Skills, Projects, Internships, Certifications, Education are unchanged] -->
+
+  <section>
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="https://formsubmit.co/mahivarunchalla99@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://mahivarunchalla86.github.io/mahivarun-portfolio/thankyou.html">
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Mahivarun Challa. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
